@@ -1,4 +1,4 @@
-Completely Free Picture Viewer App!
+Picture Viewer App for Fitbit Ionic and Versa
 
 Use cases:
 - View your favorite photos
@@ -18,4 +18,3 @@ Features:
 - Remove Mode(Down button) : Remove pics you selected
 - Status console : Show picture transfer status and connectivity with your phone as much as possible
 
-Enjoy!!
