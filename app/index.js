@@ -44,7 +44,7 @@ const image5 = document.getElementById("image5");
 const image6 = document.getElementById("image6");
 const image7 = document.getElementById("image7");
 const image8 = document.getElementById("image8");
-const image9 = document.getElementById("image9");
+//const image9 = document.getElementById("image9");
 
 const imageB1 = document.getElementById("imageB1");
 const imageB2 = document.getElementById("imageB2");
@@ -54,7 +54,7 @@ const imageB5 = document.getElementById("imageB5");
 const imageB6 = document.getElementById("imageB6");
 const imageB7 = document.getElementById("imageB7");
 const imageB8 = document.getElementById("imageB8");
-const imageB9 = document.getElementById("imageB9");
+//const imageB9 = document.getElementById("imageB9");
 
 const imageC1 = document.getElementById("imageC1");
 const imageC2 = document.getElementById("imageC2");
@@ -64,7 +64,7 @@ const imageC5 = document.getElementById("imageC5");
 const imageC6 = document.getElementById("imageC6");
 const imageC7 = document.getElementById("imageC7");
 const imageC8 = document.getElementById("imageC8");
-const imageC9 = document.getElementById("imageC9");
+//const imageC9 = document.getElementById("imageC9");
 
 let Pic1;
 let Pic2;
@@ -74,7 +74,7 @@ let Pic5;
 let Pic6;
 let Pic7;
 let Pic8;
-let Pic9;
+//let Pic9;
 
 // *** Initial loading Start *** //
 
@@ -118,11 +118,11 @@ let Pic9;
   } catch (ex) {
     Pic8 = {};
   }
-  try {
-    Pic9 = fs.readFileSync("Pic9.cbor", "cbor");
-  } catch (ex) {
-    Pic9 = {};
-  }
+//  try {
+//    Pic9 = fs.readFileSync("Pic9.cbor", "cbor");
+//  } catch (ex) {
+//    Pic9 = {};
+//  }
 
   if (Pic1.bg) {
     image1.image = Pic1.bg;
@@ -164,11 +164,11 @@ let Pic9;
     imageB8.image = Pic8.bg;
     imageC8.image = Pic8.bg;
   }
-  if (Pic9.bg) {
-    image9.image = Pic9.bg;
-    imageB9.image = Pic9.bg;
-    imageC9.image = Pic9.bg;
-  }
+//  if (Pic9.bg) {
+//    image9.image = Pic9.bg;
+//    imageB9.image = Pic9.bg;
+//    imageC9.image = Pic9.bg;
+//  }
 
 // *** Initial loading End *** //
 
@@ -181,7 +181,7 @@ let screen5 = document.getElementById("screen5");
 let screen6 = document.getElementById("screen6");
 let screen7 = document.getElementById("screen7");
 let screen8 = document.getElementById("screen8");
-let screen9 = document.getElementById("screen9");
+//let screen9 = document.getElementById("screen9");
 
 let button1 = document.getElementById("button1");
 let button2 = document.getElementById("button2");
@@ -191,7 +191,7 @@ let button5 = document.getElementById("button5");
 let button6 = document.getElementById("button6");
 let button7 = document.getElementById("button7");
 let button8 = document.getElementById("button8");
-let button9 = document.getElementById("button9");
+//let button9 = document.getElementById("button9");
 
 let SettingScreenA = document.getElementById("SettingScreenA");
 let SettingScreen1 = document.getElementById("SettingScreen1");
@@ -202,7 +202,7 @@ let SettingScreen5 = document.getElementById("SettingScreen5");
 let SettingScreen6 = document.getElementById("SettingScreen6");
 let SettingScreen7 = document.getElementById("SettingScreen7");
 let SettingScreen8 = document.getElementById("SettingScreen8");
-let SettingScreen9 = document.getElementById("SettingScreen9");
+//let SettingScreen9 = document.getElementById("SettingScreen9");
 
 function showScreen0() {
   console.log("Show screen 0");
@@ -216,7 +216,7 @@ function showScreen0() {
   screen6.style.display = "none";
   screen7.style.display = "none";
   screen8.style.display = "none";
-  screen9.style.display = "none";
+//  screen9.style.display = "none";
   SettingScreenA.style.display = "none";
   SettingScreen1.style.display = "none";
   SettingScreen2.style.display = "none";
@@ -226,7 +226,7 @@ function showScreen0() {
   SettingScreen6.style.display = "none";
   SettingScreen7.style.display = "none";
   SettingScreen8.style.display = "none";
-  SettingScreen9.style.display = "none";
+//  SettingScreen9.style.display = "none";
 }
 
 function showScreen1() {
@@ -241,7 +241,7 @@ function showScreen1() {
   screen6.style.display = "none";
   screen7.style.display = "none";
   screen8.style.display = "none";
-  screen9.style.display = "none";
+//  screen9.style.display = "none";
   SettingScreenA.style.display = "none";
   SettingScreen1.style.display = "none";
   SettingScreen2.style.display = "none";
@@ -251,7 +251,7 @@ function showScreen1() {
   SettingScreen6.style.display = "none";
   SettingScreen7.style.display = "none";
   SettingScreen8.style.display = "none";
-  SettingScreen9.style.display = "none";
+//  SettingScreen9.style.display = "none";
 }
 
 function showScreen2() {
@@ -266,7 +266,7 @@ function showScreen2() {
   screen6.style.display = "none";
   screen7.style.display = "none";
   screen8.style.display = "none";
-  screen9.style.display = "none";
+//  screen9.style.display = "none";
   SettingScreenA.style.display = "none";
   SettingScreen1.style.display = "none";
   SettingScreen2.style.display = "none";
@@ -276,7 +276,7 @@ function showScreen2() {
   SettingScreen6.style.display = "none";
   SettingScreen7.style.display = "none";
   SettingScreen8.style.display = "none";
-  SettingScreen9.style.display = "none";
+//  SettingScreen9.style.display = "none";
 }
 
 function showScreen3() {
@@ -291,7 +291,7 @@ function showScreen3() {
   screen6.style.display = "none";
   screen7.style.display = "none";
   screen8.style.display = "none";
-  screen9.style.display = "none";
+//  screen9.style.display = "none";
   SettingScreenA.style.display = "none";
   SettingScreen1.style.display = "none";
   SettingScreen2.style.display = "none";
@@ -301,7 +301,7 @@ function showScreen3() {
   SettingScreen6.style.display = "none";
   SettingScreen7.style.display = "none";
   SettingScreen8.style.display = "none";
-  SettingScreen9.style.display = "none";
+//  SettingScreen9.style.display = "none";
 }
 
 function showScreen4() {
@@ -316,7 +316,7 @@ function showScreen4() {
   screen6.style.display = "none";
   screen7.style.display = "none";
   screen8.style.display = "none";
-  screen9.style.display = "none";
+//  screen9.style.display = "none";
   SettingScreenA.style.display = "none";
   SettingScreen1.style.display = "none";
   SettingScreen2.style.display = "none";
@@ -326,7 +326,7 @@ function showScreen4() {
   SettingScreen6.style.display = "none";
   SettingScreen7.style.display = "none";
   SettingScreen8.style.display = "none";
-  SettingScreen9.style.display = "none";
+//  SettingScreen9.style.display = "none";
 }
 
 function showScreen5() {
@@ -341,7 +341,7 @@ function showScreen5() {
   screen6.style.display = "none";
   screen7.style.display = "none";
   screen8.style.display = "none";
-  screen9.style.display = "none";
+//  screen9.style.display = "none";
   SettingScreenA.style.display = "none";
   SettingScreen1.style.display = "none";
   SettingScreen2.style.display = "none";
@@ -351,7 +351,7 @@ function showScreen5() {
   SettingScreen6.style.display = "none";
   SettingScreen7.style.display = "none";
   SettingScreen8.style.display = "none";
-  SettingScreen9.style.display = "none";
+//  SettingScreen9.style.display = "none";
 }
 
 function showScreen6() {
@@ -366,7 +366,7 @@ function showScreen6() {
   screen6.style.display = "inline";
   screen7.style.display = "none";
   screen8.style.display = "none";
-  screen9.style.display = "none";
+//  screen9.style.display = "none";
   SettingScreenA.style.display = "none";
   SettingScreen1.style.display = "none";
   SettingScreen2.style.display = "none";
@@ -376,7 +376,7 @@ function showScreen6() {
   SettingScreen6.style.display = "none";
   SettingScreen7.style.display = "none";
   SettingScreen8.style.display = "none";
-  SettingScreen9.style.display = "none";
+//  SettingScreen9.style.display = "none";
 }
 
 function showScreen7() {
@@ -391,7 +391,7 @@ function showScreen7() {
   screen6.style.display = "none";
   screen7.style.display = "inline";
   screen8.style.display = "none";
-  screen9.style.display = "none";
+//  screen9.style.display = "none";
   SettingScreenA.style.display = "none";
   SettingScreen1.style.display = "none";
   SettingScreen2.style.display = "none";
@@ -401,7 +401,7 @@ function showScreen7() {
   SettingScreen6.style.display = "none";
   SettingScreen7.style.display = "none";
   SettingScreen8.style.display = "none";
-  SettingScreen9.style.display = "none";
+//  SettingScreen9.style.display = "none";
 }
 
 function showScreen8() {
@@ -416,7 +416,7 @@ function showScreen8() {
   screen6.style.display = "none";
   screen7.style.display = "none";
   screen8.style.display = "inline";
-  screen9.style.display = "none";
+//  screen9.style.display = "none";
   SettingScreenA.style.display = "none";
   SettingScreen1.style.display = "none";
   SettingScreen2.style.display = "none";
@@ -426,33 +426,33 @@ function showScreen8() {
   SettingScreen6.style.display = "none";
   SettingScreen7.style.display = "none";
   SettingScreen8.style.display = "none";
-  SettingScreen9.style.display = "none";
+//  SettingScreen9.style.display = "none";
 }
 
-function showScreen9() {
-  console.log("Show screen 9");
-  vibration.start("bump");
-  screen0.style.display = "none";
-  screen1.style.display = "none";
-  screen2.style.display = "none";
-  screen3.style.display = "none";
-  screen4.style.display = "none";
-  screen5.style.display = "none";
-  screen6.style.display = "none";
-  screen7.style.display = "none";
-  screen8.style.display = "none";
-  screen9.style.display = "inline";
-  SettingScreenA.style.display = "none";
-  SettingScreen1.style.display = "none";
-  SettingScreen2.style.display = "none";
-  SettingScreen3.style.display = "none";
-  SettingScreen4.style.display = "none";
-  SettingScreen5.style.display = "none";
-  SettingScreen6.style.display = "none";
-  SettingScreen7.style.display = "none";
-  SettingScreen8.style.display = "none";
-  SettingScreen9.style.display = "none";
-}
+//function showScreen9() {
+//  console.log("Show screen 9");
+//  vibration.start("bump");
+//  screen0.style.display = "none";
+//  screen1.style.display = "none";
+//  screen2.style.display = "none";
+//  screen3.style.display = "none";
+//  screen4.style.display = "none";
+//  screen5.style.display = "none";
+//  screen6.style.display = "none";
+//  screen7.style.display = "none";
+//  screen8.style.display = "none";
+//  screen9.style.display = "inline";
+//  SettingScreenA.style.display = "none";
+//  SettingScreen1.style.display = "none";
+//  SettingScreen2.style.display = "none";
+//  SettingScreen3.style.display = "none";
+//  SettingScreen4.style.display = "none";
+//  SettingScreen5.style.display = "none";
+//  SettingScreen6.style.display = "none";
+//  SettingScreen7.style.display = "none";
+//  SettingScreen8.style.display = "none";
+//  SettingScreen9.style.display = "none";
+//}
 
 function showSettingScreenA() {
   console.log("Show SettingScreen A");
@@ -466,7 +466,7 @@ function showSettingScreenA() {
   screen6.style.display = "none";
   screen7.style.display = "none";
   screen8.style.display = "none";
-  screen9.style.display = "none";
+//  screen9.style.display = "none";
   SettingScreenA.style.display = "inline";
   SettingScreen1.style.display = "none";
   SettingScreen2.style.display = "none";
@@ -476,7 +476,7 @@ function showSettingScreenA() {
   SettingScreen6.style.display = "none";
   SettingScreen7.style.display = "none";
   SettingScreen8.style.display = "none";
-  SettingScreen9.style.display = "none";
+//  SettingScreen9.style.display = "none";
 }
 
 function showSettingScreen1() {
@@ -491,7 +491,7 @@ function showSettingScreen1() {
   screen6.style.display = "none";
   screen7.style.display = "none";
   screen8.style.display = "none";
-  screen9.style.display = "none";
+//  screen9.style.display = "none";
   SettingScreenA.style.display = "none";
   SettingScreen1.style.display = "inline";
   SettingScreen2.style.display = "none";
@@ -501,7 +501,7 @@ function showSettingScreen1() {
   SettingScreen6.style.display = "none";
   SettingScreen7.style.display = "none";
   SettingScreen8.style.display = "none";
-  SettingScreen9.style.display = "none";
+//  SettingScreen9.style.display = "none";
 }
 
 function showSettingScreen2() {
@@ -516,7 +516,7 @@ function showSettingScreen2() {
   screen6.style.display = "none";
   screen7.style.display = "none";
   screen8.style.display = "none";
-  screen9.style.display = "none";
+//  screen9.style.display = "none";
   SettingScreenA.style.display = "none";
   SettingScreen1.style.display = "none";
   SettingScreen2.style.display = "inline";
@@ -526,7 +526,7 @@ function showSettingScreen2() {
   SettingScreen6.style.display = "none";
   SettingScreen7.style.display = "none";
   SettingScreen8.style.display = "none";
-  SettingScreen9.style.display = "none";
+//  SettingScreen9.style.display = "none";
 }
 
 function showSettingScreen3() {
@@ -541,7 +541,7 @@ function showSettingScreen3() {
   screen6.style.display = "none";
   screen7.style.display = "none";
   screen8.style.display = "none";
-  screen9.style.display = "none";
+//  screen9.style.display = "none";
   SettingScreenA.style.display = "none";
   SettingScreen1.style.display = "none";
   SettingScreen2.style.display = "none";
@@ -551,7 +551,7 @@ function showSettingScreen3() {
   SettingScreen6.style.display = "none";
   SettingScreen7.style.display = "none";
   SettingScreen8.style.display = "none";
-  SettingScreen9.style.display = "none";
+//  SettingScreen9.style.display = "none";
 }
 
 function showSettingScreen4() {
@@ -566,7 +566,7 @@ function showSettingScreen4() {
   screen6.style.display = "none";
   screen7.style.display = "none";
   screen8.style.display = "none";
-  screen9.style.display = "none";
+//  screen9.style.display = "none";
   SettingScreenA.style.display = "none";
   SettingScreen1.style.display = "none";
   SettingScreen2.style.display = "none";
@@ -576,7 +576,7 @@ function showSettingScreen4() {
   SettingScreen6.style.display = "none";
   SettingScreen7.style.display = "none";
   SettingScreen8.style.display = "none";
-  SettingScreen9.style.display = "none";
+//  SettingScreen9.style.display = "none";
 }
 
 function showSettingScreen5() {
@@ -591,7 +591,7 @@ function showSettingScreen5() {
   screen6.style.display = "none";
   screen7.style.display = "none";
   screen8.style.display = "none";
-  screen9.style.display = "none";
+//  screen9.style.display = "none";
   SettingScreenA.style.display = "none";
   SettingScreen1.style.display = "none";
   SettingScreen2.style.display = "none";
@@ -601,7 +601,7 @@ function showSettingScreen5() {
   SettingScreen6.style.display = "none";
   SettingScreen7.style.display = "none";
   SettingScreen8.style.display = "none";
-  SettingScreen9.style.display = "none";
+//  SettingScreen9.style.display = "none";
 }
 
 function showSettingScreen6() {
@@ -616,7 +616,7 @@ function showSettingScreen6() {
   screen6.style.display = "none";
   screen7.style.display = "none";
   screen8.style.display = "none";
-  screen9.style.display = "none";
+//  screen9.style.display = "none";
   SettingScreenA.style.display = "none";
   SettingScreen1.style.display = "none";
   SettingScreen2.style.display = "none";
@@ -626,7 +626,7 @@ function showSettingScreen6() {
   SettingScreen6.style.display = "inline";
   SettingScreen7.style.display = "none";
   SettingScreen8.style.display = "none";
-  SettingScreen9.style.display = "none";
+//  SettingScreen9.style.display = "none";
 }
 
 function showSettingScreen7() {
@@ -641,7 +641,7 @@ function showSettingScreen7() {
   screen6.style.display = "none";
   screen7.style.display = "none";
   screen8.style.display = "none";
-  screen9.style.display = "none";
+//  screen9.style.display = "none";
   SettingScreenA.style.display = "none";
   SettingScreen1.style.display = "none";
   SettingScreen2.style.display = "none";
@@ -651,7 +651,7 @@ function showSettingScreen7() {
   SettingScreen6.style.display = "none";
   SettingScreen7.style.display = "inline";
   SettingScreen8.style.display = "none";
-  SettingScreen9.style.display = "none";
+//  SettingScreen9.style.display = "none";
 }
 
 function showSettingScreen8() {
@@ -666,7 +666,7 @@ function showSettingScreen8() {
   screen6.style.display = "none";
   screen7.style.display = "none";
   screen8.style.display = "none";
-  screen9.style.display = "none";
+//  screen9.style.display = "none";
   SettingScreenA.style.display = "none";
   SettingScreen1.style.display = "none";
   SettingScreen2.style.display = "none";
@@ -676,7 +676,7 @@ function showSettingScreen8() {
   SettingScreen6.style.display = "none";
   SettingScreen7.style.display = "none";
   SettingScreen8.style.display = "inline";
-  SettingScreen9.style.display = "none";
+//  SettingScreen9.style.display = "none";
 }
 
 function showSettingScreen9() {
@@ -691,7 +691,7 @@ function showSettingScreen9() {
   screen6.style.display = "none";
   screen7.style.display = "none";
   screen8.style.display = "none";
-  screen9.style.display = "none";
+//  screen9.style.display = "none";
   SettingScreenA.style.display = "none";
   SettingScreen1.style.display = "none";
   SettingScreen2.style.display = "none";
@@ -701,7 +701,7 @@ function showSettingScreen9() {
   SettingScreen6.style.display = "none";
   SettingScreen7.style.display = "none";
   SettingScreen8.style.display = "none";
-  SettingScreen9.style.display = "inline";
+//  SettingScreen9.style.display = "inline";
 }
 
 button1.onclick = function() {
@@ -728,9 +728,9 @@ button7.onclick = function() {
 button8.onclick = function() {
   showScreen0();
 }
-button9.onclick = function() {
-  showScreen0();
-}
+//button9.onclick = function() {
+//  showScreen0();
+//}
 
 
 imageB1.onclick = function() {
@@ -757,9 +757,9 @@ imageB7.onclick = function() {
 imageB8.onclick = function() {
   showScreen8();
 }
-imageB9.onclick = function() {
-  showScreen9();
-}
+//imageB9.onclick = function() {
+//  showScreen9();
+//}
 
 imageC1.onclick = function() {
   showSettingScreen1();
@@ -785,9 +785,9 @@ imageC7.onclick = function() {
 imageC8.onclick = function() {
   showSettingScreen8();
 }
-imageC9.onclick = function() {
-  showSettingScreen9();
-}
+//imageC9.onclick = function() {
+//  showSettingScreen9();
+//}
 
 screen0.style.display = "inline";
 
@@ -820,9 +820,9 @@ document.onkeypress = function(evt) {
     } else if (SettingScreen8.style.display === "inline") {
       showSettingScreenA();
       evt.preventDefault();
-    } else if (SettingScreen9.style.display === "inline") {
-      showSettingScreenA();
-      evt.preventDefault();
+//    } else if (SettingScreen9.style.display === "inline") {
+//      showSettingScreenA();
+//      evt.preventDefault();
     } else {
       showScreen0();
       evt.preventDefault();
@@ -851,7 +851,7 @@ document.onkeypress = function(evt) {
       }
       evt.preventDefault();
     } else if (screen1.style.display === "inline") {
-      showScreen9();
+      showScreen8();
       evt.preventDefault();
     } else if (screen2.style.display === "inline") {
       showScreen1();
@@ -874,9 +874,9 @@ document.onkeypress = function(evt) {
     } else if (screen8.style.display === "inline") {
       showScreen7();
       evt.preventDefault();
-    } else if (screen9.style.display === "inline") {
-      showScreen8();
-      evt.preventDefault();
+//    } else if (screen9.style.display === "inline") {
+//      showScreen8();
+//      evt.preventDefault();
     } else if (SettingScreenA.style.display === "inline") {
       showScreen0();
       evt.preventDefault();
@@ -904,9 +904,9 @@ document.onkeypress = function(evt) {
     } else if (SettingScreen8.style.display === "inline") {
       showSettingScreenA();
       evt.preventDefault();
-    } else if (SettingScreen9.style.display === "inline") {
-      showSettingScreenA();
-      evt.preventDefault();
+//    } else if (SettingScreen9.style.display === "inline") {
+//      showSettingScreenA();
+//      evt.preventDefault();
     } else {
       showScreen0();
       evt.preventDefault();
@@ -939,11 +939,11 @@ document.onkeypress = function(evt) {
       showScreen8();
       evt.preventDefault();
     } else if (screen8.style.display === "inline") {
-      showScreen9();
-      evt.preventDefault();
-    } else if (screen9.style.display === "inline") {
       showScreen1();
       evt.preventDefault();
+//    } else if (screen9.style.display === "inline") {
+//      showScreen1();
+//      evt.preventDefault();
     } else if (SettingScreenA.style.display === "inline") {
       showScreen0();
       evt.preventDefault();
@@ -971,9 +971,9 @@ document.onkeypress = function(evt) {
     } else if (SettingScreen8.style.display === "inline") {
       showSettingScreenA();
       evt.preventDefault();
-    } else if (SettingScreen9.style.display === "inline") {
-      showSettingScreenA();
-      evt.preventDefault();
+//    } else if (SettingScreen9.style.display === "inline") {
+//      showSettingScreenA();
+//      evt.preventDefault();
     } else {
       showSettingScreenA();
       evt.preventDefault();
@@ -993,107 +993,106 @@ inbox.onnewfile = () => {
     fileName = inbox.nextFile();
     console.log(`${fileName} is on the watch storage`);
     if (fileName) {
-    var PicNumber = parseInt(fileName.substr(0,1));
-      StatusMessageBord.text = `Pic${PicNumber} is received`;
-      if (PicNumber == 1) {
-         if (Pic1.bg && Pic1.bg !== "") {
-           fs.unlinkSync(Pic1.bg);
-         }
          let outFileName = fileName + ".txi";
          jpeg.decodeSync(fileName, outFileName);
          fs.unlinkSync(fileName);
-         Pic1.bg = `/private/data/${outFileName}`;
-         StatusMessageBord2.text = `Log:Pic${PicNumber}/${outFileName}`;
-         console.log(`Log:Pic${PicNumber}/${outFileName}`);
-         applySettings();
-     } else if (PicNumber == 2) {
-         if (Pic2.bg && Pic2.bg !== "") {
-           fs.unlinkSync(Pic2.bg);
-         }
-         let outFileName = fileName + ".txi";
-         jpeg.decodeSync(fileName, outFileName);
-         fs.unlinkSync(fileName);
-         Pic2.bg = `/private/data/${outFileName}`;
-         StatusMessageBord2.text = `Log:Pic${PicNumber}/${outFileName}`;
-         console.log(`Log:Pic${PicNumber}/${outFileName}`);
-         applySettings();
-     } else if (PicNumber == 3) {
-         if (Pic3.bg && Pic3.bg !== "") {
-           fs.unlinkSync(Pic3.bg);
-         }
-         let outFileName = fileName + ".txi";
-         jpeg.decodeSync(fileName, outFileName);
-         fs.unlinkSync(fileName);
-         Pic3.bg = `/private/data/${outFileName}`;
-         StatusMessageBord2.text = `Log:Pic${PicNumber}/${outFileName}`;
-         console.log(`Log:Pic${PicNumber}/${outFileName}`);
-         applySettings();
-     } else if (PicNumber == 4) {
-         if (Pic4.bg && Pic4.bg !== "") {
-           fs.unlinkSync(Pic4.bg);
-         }
-         let outFileName = fileName + ".txi";
-         jpeg.decodeSync(fileName, outFileName);
-         fs.unlinkSync(fileName);
-         Pic4.bg = `/private/data/${outFileName}`;
-         StatusMessageBord2.text = `Log:Pic${PicNumber}/${outFileName}`;
-         console.log(`Log:Pic${PicNumber}/${outFileName}`);
-         applySettings();
-     } else if (PicNumber == 5) {
-         if (Pic5.bg && Pic5.bg !== "") {
-           fs.unlinkSync(Pic5.bg);
-         }
-         let outFileName = fileName + ".txi";
-         jpeg.decodeSync(fileName, outFileName);
-         fs.unlinkSync(fileName);
-         Pic5.bg = `/private/data/${outFileName}`;
-         StatusMessageBord2.text = `Log:Pic${PicNumber}/${outFileName}`;
-         console.log(`Log:Pic${PicNumber}/${outFileName}`);
-         applySettings();
-     } else if (PicNumber == 6) {
-         if (Pic6.bg && Pic6.bg !== "") {
-           fs.unlinkSync(Pic6.bg);
-         }
-         let outFileName = fileName + ".txi";
-         jpeg.decodeSync(fileName, outFileName);
-         fs.unlinkSync(fileName);
-         Pic6.bg = `/private/data/${outFileName}`;
-         StatusMessageBord2.text = `Log:Pic${PicNumber}/${outFileName}`;
-         console.log(`Log:Pic${PicNumber}/${outFileName}`);
-         applySettings();
-     } else if (PicNumber == 7) {
-         if (Pic7.bg && Pic7.bg !== "") {
-           fs.unlinkSync(Pic7.bg);
-         }
-         let outFileName = fileName + ".txi";
-         jpeg.decodeSync(fileName, outFileName);
-         fs.unlinkSync(fileName);
-         Pic7.bg = `/private/data/${outFileName}`;
-         StatusMessageBord2.text = `Log:Pic${PicNumber}/${outFileName}`;
-         console.log(`Log:Pic${PicNumber}/${outFileName}`);
-         applySettings();
-     } else if (PicNumber == 8) {
+         StatusMessageBord.text = `Pic1 is updated`;
+//         if (Pic9.bg && Pic9.bg !== "") {
+//           fs.unlinkSync(Pic9.bg);
+//           Pic9.bg = Pic8.bg;
+//           Pic8.bg = Pic7.bg;
+//           Pic7.bg = Pic6.bg;
+//           Pic6.bg = Pic5.bg;
+//           Pic5.bg = Pic4.bg;
+//           Pic4.bg = Pic3.bg;
+//           Pic3.bg = Pic2.bg;
+//           Pic2.bg = Pic1.bg;
+//           Pic1.bg = `/private/data/${outFileName}`;
+           //StatusMessageBord2.text = `Pic1 is updated, Pic9 is deleted`;
+//           console.log(`Pic1 is updated, Pic9 is deleted`);
+//           applySettings();
          if (Pic8.bg && Pic8.bg !== "") {
            fs.unlinkSync(Pic8.bg);
-         }
-         let outFileName = fileName + ".txi";
-         jpeg.decodeSync(fileName, outFileName);
-         fs.unlinkSync(fileName);
-         Pic8.bg = `/private/data/${outFileName}`;
-         StatusMessageBord2.text = `Log:Pic${PicNumber}/${outFileName}`;
-         console.log(`Log:Pic${PicNumber}/${outFileName}`);
-         applySettings();
-     } else if (PicNumber == 9) {
-         if (Pic9.bg && Pic9.bg !== "") {
-           fs.unlinkSync(Pic9.bg);
-         }
-         let outFileName = fileName + ".txi";
-         jpeg.decodeSync(fileName, outFileName);
-         fs.unlinkSync(fileName);
-         Pic9.bg = `/private/data/${outFileName}`;
-         StatusMessageBord2.text = `Log:Pic${PicNumber}/${outFileName}`;
-         console.log(`Log:Pic${PicNumber}/${outFileName}`);
-         applySettings();
+//           Pic9.bg = Pic8.bg;
+           Pic8.bg = Pic7.bg;
+           Pic7.bg = Pic6.bg;
+           Pic6.bg = Pic5.bg;
+           Pic5.bg = Pic4.bg;
+           Pic4.bg = Pic3.bg;
+           Pic3.bg = Pic2.bg;
+           Pic2.bg = Pic1.bg;
+           Pic1.bg = `/private/data/${outFileName}`;
+           //StatusMessageBord2.text = `Pic1 is updated`;
+           console.log(`Pic1 is updated`);
+           applySettings();
+         } else if (Pic7.bg && Pic7.bg !== "") {
+           Pic8.bg = Pic7.bg;
+           Pic7.bg = Pic6.bg;
+           Pic6.bg = Pic5.bg;
+           Pic5.bg = Pic4.bg;
+           Pic4.bg = Pic3.bg;
+           Pic3.bg = Pic2.bg;
+           Pic2.bg = Pic1.bg;
+           Pic1.bg = `/private/data/${outFileName}`;
+           //StatusMessageBord2.text = `Pic1 is updated`;
+           console.log(`Pic1 is updated`);
+           applySettings();
+         } else if (Pic6.bg && Pic6.bg !== "") {
+           Pic7.bg = Pic6.bg;
+           Pic6.bg = Pic5.bg;
+           Pic5.bg = Pic4.bg;
+           Pic4.bg = Pic3.bg;
+           Pic3.bg = Pic2.bg;
+           Pic2.bg = Pic1.bg;
+           Pic1.bg = `/private/data/${outFileName}`;
+           //StatusMessageBord2.text = `Pic1 is updated`;
+           console.log(`Pic1 is updated`);
+           applySettings();
+         } else if (Pic5.bg && Pic5.bg !== "") {
+           Pic6.bg = Pic5.bg;
+           Pic5.bg = Pic4.bg;
+           Pic4.bg = Pic3.bg;
+           Pic3.bg = Pic2.bg;
+           Pic2.bg = Pic1.bg;
+           Pic1.bg = `/private/data/${outFileName}`;
+           //StatusMessageBord2.text = `Pic1 is updated`;
+           console.log(`Pic1 is updated`);
+           applySettings();
+         } else if (Pic4.bg && Pic4.bg !== "") {
+           Pic5.bg = Pic4.bg;
+           Pic4.bg = Pic3.bg;
+           Pic3.bg = Pic2.bg;
+           Pic2.bg = Pic1.bg;
+           Pic1.bg = `/private/data/${outFileName}`;
+           //StatusMessageBord2.text = `Pic1 is updated`;
+           console.log(`Pic1 is updated`);
+           applySettings();
+         } else if (Pic3.bg && Pic3.bg !== "") {
+           Pic4.bg = Pic3.bg;
+           Pic3.bg = Pic2.bg;
+           Pic2.bg = Pic1.bg;
+           Pic1.bg = `/private/data/${outFileName}`;
+           //StatusMessageBord2.text = `Pic1 is updated`;
+           console.log(`Pic1 is updated`);
+           applySettings();
+         } else if (Pic2.bg && Pic2.bg !== "") {
+           Pic3.bg = Pic2.bg;
+           Pic2.bg = Pic1.bg;
+           Pic1.bg = `/private/data/${outFileName}`;
+           //StatusMessageBord2.text = `Pic1 is updated`;
+           console.log(`Pic1 is updated`);
+           applySettings();
+         } else if (Pic1.bg && Pic1.bg !== "") {
+           Pic2.bg = Pic1.bg;
+           Pic1.bg = `/private/data/${outFileName}`;
+           //StatusMessageBord2.text = `Pic1 is updated`;
+           console.log(`Pic1 is updated`);
+           applySettings();
+         } else {
+           Pic1.bg = `/private/data/${outFileName}`;
+           //StatusMessageBord2.text = `Pic1 is updated`;
+           console.log(`Pic1 is updated`);
+           applySettings();
        };
     };
   } while (fileName);
@@ -1108,7 +1107,7 @@ function saveSettings() {
   fs.writeFileSync("Pic6.cbor", Pic6, "cbor");
   fs.writeFileSync("Pic7.cbor", Pic7, "cbor");
   fs.writeFileSync("Pic8.cbor", Pic8, "cbor");
-  fs.writeFileSync("Pic9.cbor", Pic9, "cbor");
+//  fs.writeFileSync("Pic9.cbor", Pic9, "cbor");
 }
 
 function applySettings() {
@@ -1116,47 +1115,83 @@ function applySettings() {
     image1.image = Pic1.bg;
     imageB1.image = Pic1.bg;
     imageC1.image = Pic1.bg;
+  } else {
+    image1.image = ``;
+    imageB1.image = ``;
+    imageC1.image = ``;
   }
   if (Pic2.bg) {
     image2.image = Pic2.bg;
     imageB2.image = Pic2.bg;
     imageC2.image = Pic2.bg;
+  } else {
+    image2.image = ``;
+    imageB2.image = ``;
+    imageC2.image = ``;
   }
   if (Pic3.bg) {
     image3.image = Pic3.bg;
     imageB3.image = Pic3.bg;
     imageC3.image = Pic3.bg;
+  } else {
+    image3.image = ``;
+    imageB3.image = ``;
+    imageC3.image = ``;
   }
   if (Pic4.bg) {
     image4.image = Pic4.bg;
     imageB4.image = Pic4.bg;
     imageC4.image = Pic4.bg;
+  } else {
+    image4.image = ``;
+    imageB4.image = ``;
+    imageC4.image = ``;
   }
   if (Pic5.bg) {
     image5.image = Pic5.bg;
     imageB5.image = Pic5.bg;
     imageC5.image = Pic5.bg;
+  } else {
+    image5.image = ``;
+    imageB5.image = ``;
+    imageC5.image = ``;
   }
   if (Pic6.bg) {
     image6.image = Pic6.bg;
     imageB6.image = Pic6.bg;
     imageC6.image = Pic6.bg;
+  } else {
+    image6.image = ``;
+    imageB6.image = ``;
+    imageC6.image = ``;
   }
   if (Pic7.bg) {
     image7.image = Pic7.bg;
     imageB7.image = Pic7.bg;
     imageC7.image = Pic7.bg;
+  } else {
+    image7.image = ``;
+    imageB7.image = ``;
+    imageC7.image = ``;
   }
   if (Pic8.bg) {
     image8.image = Pic8.bg;
     imageB8.image = Pic8.bg;
     imageC8.image = Pic8.bg;
+  } else {
+    image8.image = ``;
+    imageB8.image = ``;
+    imageC8.image = ``;
   }
-  if (Pic9.bg) {
-    image9.image = Pic9.bg;
-    imageB9.image = Pic9.bg;
-    imageC9.image = Pic9.bg;
-  }
+//  if (Pic9.bg) {
+//    image9.image = Pic9.bg;
+//    imageB9.image = Pic9.bg;
+//    imageC9.image = Pic9.bg;
+//  } else {
+//    image9.image = ``;
+//    imageB9.image = ``;
+//    imageC9.image = ``;
+//  }
     display.on = true;
     vibration.start("ping");
 }
@@ -1181,8 +1216,8 @@ let btnLeft7 = SettingScreen7.getElementById("btnLeft7");
 let btnRight7 = SettingScreen7.getElementById("btnRight7");
 let btnLeft8 = SettingScreen8.getElementById("btnLeft8");
 let btnRight8 = SettingScreen8.getElementById("btnRight8");
-let btnLeft9 = SettingScreen9.getElementById("btnLeft9");
-let btnRight9 = SettingScreen9.getElementById("btnRight9");
+//let btnLeft9 = SettingScreen9.getElementById("btnLeft9");
+//let btnRight9 = SettingScreen9.getElementById("btnRight9");
 
 btnLeft1.onclick = function(evt) {
   showSettingScreenA();
@@ -1193,10 +1228,16 @@ btnRight1.onclick = function(evt) {
   }catch (e) {
   console.log(e);
   }
-  Pic1.bg = ``;
-  image1.image = ``;
-  imageB1.image = ``;
-  imageC1.image = ``;
+    Pic1.bg = Pic2.bg;
+    Pic2.bg = Pic3.bg;
+    Pic3.bg = Pic4.bg;
+    Pic4.bg = Pic5.bg;
+    Pic5.bg = Pic6.bg;
+    Pic6.bg = Pic7.bg;
+    Pic7.bg = Pic8.bg;
+//    Pic8.bg = Pic9.bg;
+    Pic8.bg = ``;
+    applySettings();
   showSettingScreenA();
 }
 btnLeft2.onclick = function(evt) {
@@ -1208,10 +1249,15 @@ btnRight2.onclick = function(evt) {
   }catch (e) {
   console.log(e);
   }
-  Pic2.bg = ``;
-  image2.image = ``;
-  imageB2.image = ``;
-  imageC2.image = ``;
+    Pic2.bg = Pic3.bg;
+    Pic3.bg = Pic4.bg;
+    Pic4.bg = Pic5.bg;
+    Pic5.bg = Pic6.bg;
+    Pic6.bg = Pic7.bg;
+    Pic7.bg = Pic8.bg;
+//    Pic8.bg = Pic9.bg;
+    Pic8.bg = ``;
+    applySettings();
   showSettingScreenA();
 }
 btnLeft3.onclick = function(evt) {
@@ -1223,10 +1269,14 @@ btnRight3.onclick = function(evt) {
   }catch (e) {
   console.log(e);
   }
-  Pic3.bg = ``;
-  image3.image = ``;
-  imageB3.image = ``;
-  imageC3.image = ``;
+    Pic3.bg = Pic4.bg;
+    Pic4.bg = Pic5.bg;
+    Pic5.bg = Pic6.bg;
+    Pic6.bg = Pic7.bg;
+    Pic7.bg = Pic8.bg;
+//    Pic8.bg = Pic9.bg;
+    Pic8.bg = ``;
+    applySettings();
   showSettingScreenA();
 }
 btnLeft4.onclick = function(evt) {
@@ -1238,10 +1288,13 @@ btnRight4.onclick = function(evt) {
   }catch (e) {
   console.log(e);
   }
-  Pic4.bg = ``;
-  image4.image = ``;
-  imageB4.image = ``;
-  imageC4.image = ``;
+    Pic4.bg = Pic5.bg;
+    Pic5.bg = Pic6.bg;
+    Pic6.bg = Pic7.bg;
+    Pic7.bg = Pic8.bg;
+//    Pic8.bg = Pic9.bg;
+    Pic8.bg = ``;
+    applySettings();
   showSettingScreenA();
 }
 btnLeft5.onclick = function(evt) {
@@ -1253,10 +1306,12 @@ btnRight5.onclick = function(evt) {
   }catch (e) {
   console.log(e);
   }
-  Pic5.bg = ``;
-  image5.image = ``;
-  imageB5.image = ``;
-  imageC5.image = ``;
+    Pic5.bg = Pic6.bg;
+    Pic6.bg = Pic7.bg;
+    Pic7.bg = Pic8.bg;
+//    Pic8.bg = Pic9.bg;
+    Pic8.bg = ``;
+    applySettings();
   showSettingScreenA();
 }
 btnLeft6.onclick = function(evt) {
@@ -1268,10 +1323,11 @@ btnRight6.onclick = function(evt) {
   }catch (e) {
   console.log(e);
   }
-  Pic6.bg = ``;
-  image6.image = ``;
-  imageB6.image = ``;
-  imageC6.image = ``;
+    Pic6.bg = Pic7.bg;
+    Pic7.bg = Pic8.bg;
+//    Pic8.bg = Pic9.bg;
+    Pic8.bg = ``;
+    applySettings();
   showSettingScreenA();
 }
 btnLeft7.onclick = function(evt) {
@@ -1283,10 +1339,10 @@ btnRight7.onclick = function(evt) {
   }catch (e) {
   console.log(e);
   }
-  Pic7.bg = ``;
-  image7.image = ``;
-  imageB7.image = ``;
-  imageC7.image = ``;
+    Pic7.bg = Pic8.bg;
+//    Pic8.bg = Pic9.bg;
+    Pic8.bg = ``;
+    applySettings();
   showSettingScreenA();
 }
 btnLeft8.onclick = function(evt) {
@@ -1298,27 +1354,24 @@ btnRight8.onclick = function(evt) {
   }catch (e) {
   console.log(e);
   }
-  Pic8.bg = ``;
-  image8.image = ``;
-  imageB8.image = ``;
-  imageC8.image = ``;
+//    Pic8.bg = Pic9.bg;
+    Pic8.bg = ``;
+    applySettings();
   showSettingScreenA();
 }
-btnLeft9.onclick = function(evt) {
-  showSettingScreenA();
-}
-btnRight9.onclick = function(evt) {
-  try {
-  fs.unlinkSync(Pic9.bg);
-  }catch (e) {
-  console.log(e);
-  }
-  Pic9.bg = ``;
-  image9.image = ``;
-  imageB9.image = ``;
-  imageC9.image = ``;
-  showSettingScreenA();
-}
+//btnLeft9.onclick = function(evt) {
+//  showSettingScreenA();
+//}
+//btnRight9.onclick = function(evt) {
+//  try {
+//  fs.unlinkSync(Pic9.bg);
+//  }catch (e) {
+//  console.log(e);
+//  }
+//    Pic9.bg = ``;
+//    applySettings();
+//  showSettingScreenA();
+//}
 
 // *** Setting End *** //
 
