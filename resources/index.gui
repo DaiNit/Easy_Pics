@@ -20,7 +20,7 @@
     <text x="83%" y="47%" fill="lightgrey" font-size="20" font-family="Seville-Book-Italic" text-anchor="middle">Pic 6</text>
     <text x="16%" y="78%" fill="lightgrey" font-size="20" font-family="Seville-Book-Italic" text-anchor="middle">Pic 7</text>
     <text x="50%" y="78%" fill="lightgrey" font-size="20" font-family="Seville-Book-Italic" text-anchor="middle">Pic 8</text>
-    <text x="83%" y="78%" fill="lightgrey" font-size="20" font-family="Seville-Book-Italic" text-anchor="middle">Pic 9</text>
+    <text x="83%" y="78%" fill="grey" font-size="20" font-family="Seville-Bold-Italic" text-anchor="middle">EasyPics</text>
 
     <image id="imageB1" pointer-events="all" x="0%" y="0%" width="33%" height="30%"   opacity="1.0"/>
     <image id="imageB2" pointer-events="all" x="33%" y="0%" width="34%" height="30%"  opacity="1.0"/>
@@ -30,7 +30,7 @@
     <image id="imageB6" pointer-events="all" x="67%" y="30%" width="33%" height="30%" opacity="1.0"/>
     <image id="imageB7" pointer-events="all" x="0%" y="60%" width="33%" height="30%"  opacity="1.0"/>
     <image id="imageB8" pointer-events="all" x="33%" y="60%" width="34%" height="30%" opacity="1.0"/>
-    <image id="imageB9" pointer-events="all" x="67%" y="60%" width="33%" height="30%" opacity="1.0"/>
+    
 
     <text id="StatusMessageBord2" x="50%" y="88%" fill="lightgrey" font-size="23" font-family="Seville-Book" text-length="40" text-anchor="middle" />
     <text id="StatusMessageBord" x="50%" y="98%" fill="lightgrey" font-size="23" font-family="Seville-Book-Condensed" text-length="40" text-anchor="middle" />
@@ -94,13 +94,6 @@
     <rect id="button8" pointer-events="all" width="100%" height="100%" opacity="0"/>
   </svg>
   
-  <svg id="screen9" display="none">
-    <rect x="0%" y="0%" width="100%" height="100%" fill="fb-extra-dark-gray" opacity="0.7"/>
-    <text font-size="25" font-family="Seville-Book-Italic" fill="gray" x="50%" text-anchor="middle">Pic 9</text>
-    <image id="image9" />
-    <rect id="button9" pointer-events="all" width="100%" height="100%" opacity="0"/>
-  </svg>
-
   <!-- Setting Pages -->
   
   
@@ -126,8 +119,8 @@
     <text x="83%" y="47%" fill="white" font-size="20" font-family="Seville-Book-Italic" text-anchor="middle">Pic 6</text>
     <text x="16%" y="78%" fill="white" font-size="20" font-family="Seville-Book-Italic" text-anchor="middle">Pic 7</text>
     <text x="50%" y="78%" fill="white" font-size="20" font-family="Seville-Book-Italic" text-anchor="middle">Pic 8</text>
-    <text x="83%" y="78%" fill="white" font-size="20" font-family="Seville-Book-Italic" text-anchor="middle">Pic 9</text>
-
+    <text x="83%" y="78%" fill="lightgrey" font-size="20" font-family="Seville-Bold-Italic" text-anchor="middle">EasyPics</text>
+     
     <image id="imageC1" pointer-events="all" x="0%" y="0%" width="33%" height="30%"   opacity="0.4"/>
     <image id="imageC2" pointer-events="all" x="33%" y="0%" width="34%" height="30%"  opacity="0.4"/>
     <image id="imageC3" pointer-events="all" x="67%" y="0%" width="33%" height="30%"  opacity="0.4"/>
@@ -136,7 +129,6 @@
     <image id="imageC6" pointer-events="all" x="67%" y="30%" width="33%" height="30%" opacity="0.4"/>
     <image id="imageC7" pointer-events="all" x="0%" y="60%" width="33%" height="30%"  opacity="0.4"/>
     <image id="imageC8" pointer-events="all" x="33%" y="60%" width="34%" height="30%" opacity="0.4"/>
-    <image id="imageC9" pointer-events="all" x="67%" y="60%" width="33%" height="30%" opacity="0.4"/>
 
     <text x="50%" y="98%" fill="white" font-size="23" font-family="Seville-Book-Condensed" text-length="40" text-anchor="middle" >Picture Removal mode</text>
 
@@ -289,25 +281,6 @@
     <set href="#text" attributeName="text-anchor" to="middle" />
   </use>
   <use id="btnRight8" class="dialog-half-button-right" href="#square-button-negative">
-    <set href="#text" attributeName="text-buffer" to="Yes Remove" />
-    <set href="#text" attributeName="text-anchor" to="middle" />
-  </use>
-  </svg>
-  
-  <svg id="SettingScreen9" display="none">
-  <rect class="full-size" fill="fb-black" />
-  <use href="#mixed-text-center-mid" class="dialog-mixed-text" fill="fb-white">
-    <set href="#top-padding" attributeName="display" to="none" />
-    <set href="#header/text" attributeName="text-buffer" to="Remove Pic No.9" />
-    <set href="#header/text" attributeName="fill" to="fb-magenta"/>
-    <set href="#copy/text" attributeName="text-buffer" to="Do you want to remove this pic?" />
-    <set href="#bottom-padding" attributeName="display" to="none" />
-  </use>
-  <use id="btnLeft9" class="dialog-half-button-left" href="#square-button-neutral">
-    <set href="#text" attributeName="text-buffer" to="No" />
-    <set href="#text" attributeName="text-anchor" to="middle" />
-  </use>
-  <use id="btnRight9" class="dialog-half-button-right" href="#square-button-negative">
     <set href="#text" attributeName="text-buffer" to="Yes Remove" />
     <set href="#text" attributeName="text-anchor" to="middle" />
   </use>
