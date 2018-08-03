@@ -59,19 +59,11 @@ settingsStorage.onchange = function(evt) {
 };
 
 function TransferSelect(key, newValue) {
-         if (key == "image1") { compressAndTransferImage(1, newValue);
-  } else if (key == "image2") { compressAndTransferImage(2, newValue);
-  } else if (key == "image3") { compressAndTransferImage(3, newValue);
-  } else if (key == "image4") { compressAndTransferImage(4, newValue);
-  } else if (key == "image5") { compressAndTransferImage(5, newValue);
-  } else if (key == "image6") { compressAndTransferImage(6, newValue);
-  } else if (key == "image7") { compressAndTransferImage(7, newValue);
-  } else if (key == "image8") { compressAndTransferImage(8, newValue);
-  } else if (key == "image9") { compressAndTransferImage(9, newValue);
+         if (key == "image") { compressAndTransferImage(newValue);
 }};
 
-function compressAndTransferImage(PicKey,settingsValue) {
-  console.log(`compressAndTransferImage:${PicKey}`);
+function compressAndTransferImage(settingsValue) {
+  console.log(`compressAndTransferImage`);
   if (QualitySelect == 0){  
   const imageData = JSON.parse(settingsValue);
   Image.from(imageData.imageUri)
@@ -81,7 +73,7 @@ function compressAndTransferImage(PicKey,settingsValue) {
         quality: 20
       })
     )
-    .then(buffer => outbox.enqueue(`${PicKey}_${Date.now()}`, buffer))
+    .then(buffer => outbox.enqueue(`${Date.now()}`, buffer))
     .then(fileTransfer => {
       console.log(`Enqueued ${fileTransfer.name}`);     
       console.log( "Quality is Low" );
@@ -91,7 +83,7 @@ function compressAndTransferImage(PicKey,settingsValue) {
          if (count1 >= 100 && timer1 != null) {
             clearInterval(timer1);
         }
-        StatusMessage = `Pic${PicKey} is ${fileTransfer.readyState}`;
+        StatusMessage = `${fileTransfer.readyState}`;
     }
     timer1 = setInterval(event1, 300);
     
@@ -105,21 +97,21 @@ function compressAndTransferImage(PicKey,settingsValue) {
         quality: 40
       })
     )
-    .then(buffer => outbox.enqueue(`${PicKey}_${Date.now()}`, buffer))
+    .then(buffer => outbox.enqueue(`${Date.now()}`, buffer))
     .then(fileTransfer => {
-      console.log(`Enqueued ${fileTransfer.name}`);
-      console.log( "Quality is Medium" );
+      console.log(`Enqueued ${fileTransfer.name}`);     
+      console.log( "Quality is Low" );
       
-    function event2() {
-       count2++;
-         if (count2 >= 100 && timer2 != null) {
-            clearInterval(timer2);
+    function event1() {
+       count1++;
+         if (count1 >= 100 && timer1 != null) {
+            clearInterval(timer1);
         }
-        StatusMessage = `Pic${PicKey} is ${fileTransfer.readyState}`;
+        StatusMessage = `${fileTransfer.readyState}`;
     }
-    timer2 = setInterval(event2, 300);
+    timer1 = setInterval(event1, 300);
     
-    });
+  });
   } else if (QualitySelect == 2){
   const imageData = JSON.parse(settingsValue);
   Image.from(imageData.imageUri)
@@ -129,21 +121,21 @@ function compressAndTransferImage(PicKey,settingsValue) {
         quality: 60
       })
     )
-    .then(buffer => outbox.enqueue(`${PicKey}_${Date.now()}`, buffer))
+    .then(buffer => outbox.enqueue(`${Date.now()}`, buffer))
     .then(fileTransfer => {
-      console.log(`Enqueued ${fileTransfer.name}`);
-      console.log( "Quality is High" );
+      console.log(`Enqueued ${fileTransfer.name}`);     
+      console.log( "Quality is Low" );
       
-    function event3() {
-       count3++;
-         if (count3 >= 100 && timer3 != null) {
-            clearInterval(timer3);
+    function event1() {
+       count1++;
+         if (count1 >= 100 && timer1 != null) {
+            clearInterval(timer1);
         }
-        StatusMessage = `Pic${PicKey} is ${fileTransfer.readyState}`;
+        StatusMessage = `${fileTransfer.readyState}`;
     }
-    timer3 = setInterval(event3, 300);
+    timer1 = setInterval(event1, 300);
     
-    });
+  });
 };
 };
 
